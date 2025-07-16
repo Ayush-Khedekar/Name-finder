@@ -4,7 +4,7 @@ import data from "./searchContent/IndianNamesData";
 import React from "react";
 
 function App() {
-  const [input, setInput] = React.useState<names[]>(data);
+  const [input, _setInput] = React.useState<names[]>(data);
   return (
     <>
       <SerarchInput inputVal={input}/>
